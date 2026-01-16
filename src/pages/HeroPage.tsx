@@ -1,5 +1,7 @@
+import ContactForm from "@/components/modules/contact";
 import CourseSection from "@/components/modules/courseSection";
 import Hero from "@/components/modules/hero";
+import VideoEditorSection from "@/components/modules/videoSection";
 
 // const dummyCourseData = {
 //   id: 1,
@@ -20,6 +22,8 @@ export default function HeroPage() {
       <Hero />
       <CourseSection />
       {/* <CourseCard course={dummyCourseData} /> */}
+      <VideoEditorSection />
+      <ContactForm />
     </div>
   );
 }
